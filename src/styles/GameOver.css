@@ -1,0 +1,47 @@
+.game-over {
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
+    color: #2b0253;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.game-over h1 {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+    color: #2b0253;
+}
+
+.game-over p {
+    margin-top:0.8rem;
+    font-size:1.9rem;
+    font-weight:bold;
+    color: #000;
+}
+
+.game-over button {
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius:12px;
+    background-color: #ffcb05;
+    color: #0667b0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.game-over button:hover {
+    background-color: #2a75bb;
+    color: #fff;
+    transform: scale(1.05);
+}
